@@ -2,10 +2,7 @@
 <?xml-stylesheet href="chrome://hknewsreader/skin/overlay.css" type="text/css"?>
 <!DOCTYPE overlay SYSTEM "chrome://readablenews/locale/readablenews.dtd">
 <overlay id="readablenews-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-    <!-- source from:
-      yui, base, collection, dom, event, json, node, oop, selector-css3, stylesheet
-    -->
-    <script type="text/javascript" src="chrome://readablenews/content/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="chrome://readablenews/content/jquery.min.js"></script>-->
     <script type="text/javascript" src="chrome://readablenews/content/readablenews-firefox.js"></script>
     <!--<script type="text/javascript" src="readablenews-search.js"/>
     <script type="text/javascript" src="readablenews.js"/>-->
