@@ -1,0 +1,16 @@
+{
+  "name": "ReadableNews",
+  "version": "0.1",
+  "description": "Make news readable",
+  "permissions": ["tabs", "http://*/*", "https://*/*"],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://hk.news.yahoo.com/*",
+        "http://hk.apple.nextmedia.com/*"
+      ]
+      , "js": [ "jquery.min.js", "readablenews-chrome.js" ]
+      , "run_at":"document_end"
+    }
+  ]
+}

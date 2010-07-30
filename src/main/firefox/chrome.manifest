@@ -1,0 +1,9 @@
+content	readablenews	content/
+locale	readablenews	en-US	locale/en-US/
+skin	readablenews	classic/1.0	skin/
+overlay	chrome://browser/content/browser.xul	chrome://readablenews/content/overlay.xul
+#style	chrome://global/content/customizeToolbar.xul	chrome://readablenews/skin/overlay.css
+resource hk.news.yahoo.com-readablenews-home.css chrome://readablenews/content/hk.news.yahoo.com/readablenews-home.css
+resource hk.news.yahoo.com-readablenews-site.css chrome://readablenews/content/hk.news.yahoo.com/readablenews-site.css
+resource hk.apple.nextmedia.com-readablenews-home.css chrome://readablenews/content/hk.apple.nextmedia.com/readablenews-home.css
+resource hk.apple.nextmedia.com-readablenews-site.css chrome://readablenews/content/hk.apple.nextmedia.com/readablenews-site.css

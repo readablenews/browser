@@ -1,0 +1,73 @@
+/**
+* all
+*/
+#LargeRectangleAd, #MiddleAd1, #MiddleAd1 div, #MiddleAd2, #LeftAd, #adHeaderTop, #adTextLink, div.adTextLink, div.adArticleRight, #adGoogleAFC {
+    display: none
+}
+
+div.adArticleRight, div.feedbackAD, #adGoogleAFC, #adTextLink, #adHeaderTop {
+    display: none
+}
+
+#siteFooterLeft, #siteFooterpixelMedia, #siteFooterNielsen {
+    display: none
+}
+
+#imgDiv, #eyeDiv {
+    display: none
+}
+
+embed[type="application/x-shockwave-flash"]#vdoplayer {
+    display: inline;
+}
+
+embed[type="application/x-shockwave-flash"] {
+    display: none
+}
+
+select#sltArticleMenu {
+    font-size: 16px
+}
+
+/**
+ * site
+ */
+#siteHeader {
+    display: none;
+}
+
+/* article page */
+
+/**
+ * Article
+ */
+#videoPanelBody .infoBox {
+    display: none
+}
+
+div#content {
+    width: 974px
+}
+
+#sidebarLeft {
+    display: none
+}
+
+#videoPanelBody .message {
+    display: none
+}
+
+div.spacer, p.paragraph {
+    clear: left
+}
+
+div.articlePhotoLeft {
+    float: right;
+    margin: 0 0 10px 10px
+}
+
+div#articleIntroPhoto {
+    float: right;
+    display: inline;
+    margin: 0 0 10px 10px
+}

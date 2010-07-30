@@ -1,0 +1,13 @@
+
+Chrome:
+- see http://code.google.com/chrome/extensions/trunk/getstarted.html
+- Tools (menu) > Extensions >
+    + Developer mode
+    Load unpacked extension
+
+Firefox:
+- for my windows:
+    create a C:\Documents and Settings\${username}\Application Data\Mozilla\Firefox\Profiles\${profile}\extensions\
+
+    with a single line content that point to the src/main/firefox path
+    D:\projects\intellij\readablenews\firefox-addon\src

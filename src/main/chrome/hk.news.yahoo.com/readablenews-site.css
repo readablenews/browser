@@ -1,0 +1,107 @@
+/*body#nws-article.yui-skin-sam {
+    color: red;
+}*/
+
+/** remove ad **/
+#adbn_LREC, #adbn_ET, #ov_btm_ctnr, #adbn_REC {
+    display: none;
+}
+
+/* global hd */
+#hd .a-hd,
+#hd #adbn_N {
+    display: none;
+}
+
+body#nws-article {
+    background: none;
+}
+
+/* hide header in content page, dropdown menu to be moved by JS */
+#nws-article #hd #marquee,
+#nws-article #hd #nws-nav,
+#nws-article #hd #hotsearch {
+    display: none;
+}
+
+#com-headlines , #com-headlines-stories {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* remove fix size width */
+#nws-article #doc2 {
+    width: 90%;
+}
+
+/** left col **/
+#nws-article .cols, #nws-article .com-feature-recomm, #nws-article .com-other-focus, #nws-article .com-today-commentary {
+    display: none
+}
+
+/** the photo carousel will be moved by Javascript */
+#nws-article #com-carousel-photos.com-carousel {
+    visibility: visible;
+    float: left;
+    margin-right: 20px;
+}
+
+#nws-article #yui-main .yui-b {
+    margin-left: 0px;
+}
+
+/** all nws-article: restructure article layout to remove the right ad col*/
+#nws-article #artilce-feature-main {
+    padding-top: 0px
+}
+
+#nws-article #artilce-feature-main .yui-u.first {
+    width: 100%;
+    display: inline;
+}
+
+#nws-article #artilce-feature-main .yui-u {
+    width: 0px;
+    display: none;
+
+}
+
+#nws-article #artilce-feature-main #article-content {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nws-article #artilce-feature-main #article-content .main-tit,
+#nws-article #artilce-feature-main #article-content .info,
+#nws-article #artilce-feature-main #article-content .livewords {
+    padding: 0px;
+}
+
+/* enlarge main context font size */
+p {
+    font-size: 24px;
+    letter-spacing:5px;
+    line-height: 32px;
+    padding: 10px;
+}
+
+/*#nws-article #artilce-feature-main #article-content .livewords .bd {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px;
+}*/
+
+/* remove emote comment box */
+#com-emoticon-polling {
+    display: none;
+}
+
+/** remove text promote links */
+.vl_kw, .vl_vlkw {
+    border: none;
+}
+
+.vl_icon {
+    display: none;
+}

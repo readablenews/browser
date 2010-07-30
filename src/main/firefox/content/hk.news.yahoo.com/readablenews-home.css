@@ -1,0 +1,31 @@
+#uheader {
+    display: none;
+}
+
+#nws-home #home-focus .yui-u.first {
+    width: 100%;
+
+}
+
+#home-focus .yui-gc > div:last-child {
+    display: none;
+}
+
+.img-cont {
+    float: left;
+    margin: 10px;
+}
+
+/*
+    border: 2px solid red ;
+#column, #home-ad-ctnr {
+    display: none;
+}
+
+#home-focus-rapid, #nws-home, #home-focus .yui-u{
+    width: 100%;
+}
+
+.rc, .rc-bd, .rc-ft{
+    width:100%;
+}*/
