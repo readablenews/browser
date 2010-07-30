@@ -35,30 +35,6 @@ window.addEventListener("load", function(){
       } catch(e){
         console.log('error: ' + e)
       }
-    }, true
-            )
-            ;
+    }, true);
   }
-}
-        ,
-        false
-        )
-        ;
-/*
- try{
- var css = function(cssPath){
- var cssUrl = chrome.extension.getURL(cssPath) + '?r=' + Math.random();
- $('head').append('<link rel="stylesheet" href="' + cssUrl + '" type="text/css" />');
- }
-
- if (location.href.search(/hk\.news\.yahoo\.com/) > 0){
- alert('yahoo news')
- css("hk.news.yahoo.com/readablenews-home.css")
- css("hk.news.yahoo.com/readablenews-site.css")
- }
- } catch(e){
- alert(e)
- }
-
-
- */
+}, false);
